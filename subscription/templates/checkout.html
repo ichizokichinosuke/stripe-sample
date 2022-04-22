@@ -5,13 +5,13 @@
   <body>
         <section>
             <form action="/create-checkout-session" method="POST">
-                <input type="hidden" name="priceId" value="price_1KrE2ZCfDyUD6BwEcw5T0p5E" />
+                <input type="hidden" name="priceId" value={basicPriceID} />
                 <button type="submit">Basic Checkout</button>
             </form>
         </section>
         <section>
             <form action="/create-checkout-session" method="POST">
-                <input type="hidden" name="priceId" value="price_1KrE15CfDyUD6BwERgYb5u9z" />
+                <input type="hidden" name="priceId" value={proPriceID} />
                 <button type="submit">Premium Checkout</button>
             </form>
         </section>
